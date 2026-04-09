@@ -131,3 +131,190 @@ wuadm:$6$F8LVugFRWMbSetN/$.Hc8jNaVH5XZ/ogLM3pb1QFOw6/sgbXgcC0x1PuexzKOQPpEnxjxdt
 zabuadm:$6$nU9gDW3rgx5457UR$cPaLTUGHiDrqU0QuN2yvwcMBhkt4WRl/vJGxaO/JY2ihfP0GEBqaba6GBG78ujt2I2J9B3iv/ZWWRfhmVRMP1.:20520::::::
 astraadm:$6$rW3STgImbSe3P5mB$rgl5KQTf3POmIBgH/qEkCaepgl5VLISI/I7pYnCYXoV63RL4jNoy1aQWRcc8vNGWo8HXvaclRAHEwfUlV/tSf0:20527:0:99999:7:::
 ----------------------------------------
+[2026-04-09 18:32:03]
+COMMAND: cat /etc/passwd
+EXIT CODE: 0
+STDOUT:
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+geoclue:x:997:995:User for geoclue:/var/lib/geoclue:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pipewire:x:996:992:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+libstoragemgmt:x:995:989:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+unbound:x:994:988:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+gluster:x:993:987:GlusterFS daemons:/run/gluster:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+saslauth:x:992:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+dnsmasq:x:985:985:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+sssd:x:984:984:User for sssd:/:/sbin/nologin
+cockpit-ws:x:983:982:User for cockpit web service:/nonexisting:/sbin/nologin
+cockpit-wsinstance:x:982:981:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+chrony:x:981:980::/var/lib/chrony:/sbin/nologin
+colord:x:980:979:User for colord:/var/lib/colord:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+setroubleshoot:x:979:978::/var/lib/setroubleshoot:/sbin/nologin
+flatpak:x:978:977:User for flatpak system helper:/:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+clevis:x:977:976:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/sbin/nologin
+gnome-initial-setup:x:976:975::/run/gnome-initial-setup/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+admin:x:1000:1000:admin:/home/admin:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+dovecot:x:97:97:Dovecot IMAP server:/usr/libexec/dovecot:/sbin/nologin
+dovenull:x:975:974:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+named:x:25:25:Named:/var/named:/bin/false
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/sbin/nologin
+cwpsrv:x:974:973::/usr/local/cwpsrv:/sbin/nologin
+cwpsvc:x:973:972::/usr/local/cwpsrv/var/services:/sbin/nologin
+login:x:972:971::/home/login:/sbin/nologin
+vmail:x:101:12:Virtual mailbox:/var/vmail:/sbin/nologin
+vacation:x:971:970:Virtual vacation:/var/spool/vacation:/sbin/nologin
+opendkim:x:970:969:OpenDKIM Milter:/run/opendkim:/sbin/nologin
+pyspf-milter:x:969:968::/run/pyspf-milter:/sbin/nologin
+asanwadm:x:1001:1001::/home/asanwadm:/sbin/nologin
+afdaadm:x:1002:1002::/home/afdaadm:/sbin/nologin
+modaadm:x:1003:1003::/home/modaadm:/sbin/nologin
+mompgov:x:1004:1004::/home/mompgov:/sbin/nologin
+moheadm:x:1005:1005::/home/moheadm:/sbin/nologin
+mobtadm:x:1008:1008::/home/mobtadm:/sbin/nologin
+opaadm:x:1009:1009::/home/opaadm:/sbin/nologin
+tvetaadm:x:1010:1010::/home/tvetaadm:/sbin/nologin
+mociadm:x:1011:1011::/home/mociadm:/sbin/nologin
+moicadm:x:1012:1012::/home/moicadm:/sbin/nologin
+nexaadm:x:1013:1013::/home/nexaadm:/sbin/nologin
+kpuadm:x:1014:1014::/home/kpuadm:/sbin/nologin
+gdsocadm:x:1015:1015::/home/gdsocadm:/sbin/nologin
+mophadm:x:1016:1016::/home/mophadm:/sbin/nologin
+molsaadm:x:1017:1017::/home/molsaadm:/sbin/nologin
+asaadm:x:1018:1018::/home/asaadm:/sbin/nologin
+arzaqadm:x:1019:1019::/home/arzaqadm:/sbin/nologin
+mrmcadm:x:1020:1020::/home/mrmcadm:/sbin/nologin
+kuedadm:x:1021:1021::/home/kuedadm:/sbin/nologin
+andmaadm:x:1023:1023::/home/andmaadm:/sbin/nologin
+aneaadm:x:1024:1024::/home/aneaadm:/sbin/nologin
+anicadm:x:1025:1025::/home/anicadm:/sbin/nologin
+kumsadm:x:1027:1027::/home/kumsadm:/sbin/nologin
+apcgov:x:1028:1028::/home/apcgov:/sbin/nologin
+araadm:x:1030:1030::/home/araadm:/sbin/nologin
+atoadm:x:1032:1032::/home/atoadm:/sbin/nologin
+dpmeaadm:x:1033:1033::/home/dpmeaadm:/sbin/nologin
+nsiaadm:x:1035:1035::/home/nsiaadm:/sbin/nologin
+puedadm:x:1036:1036::/home/puedadm:/sbin/nologin
+aueduadm:x:1039:1039::/home/aueduadm:/sbin/nologin
+supraadm:x:1041:1041::/home/supraadm:/sbin/nologin
+anastuad:x:1042:1042::/home/anastuad:/sbin/nologin
+mudhgov:x:1043:1043::/home/mudhgov:/sbin/nologin
+mojgova:x:1044:1044::/home/mojgova:/sbin/nologin
+baadm:x:1045:1045::/home/baadm:/sbin/nologin
+kundadm:x:1046:1046::/home/kundadm:/sbin/nologin
+huadm:x:1047:1047::/home/huadm:/sbin/nologin
+nueadm:x:1048:1048::/home/nueadm:/sbin/nologin
+bueadm:x:1049:1049::/home/bueadm:/sbin/nologin
+guadm:x:1050:1050::/home/guadm:/sbin/nologin
+faradm:x:1051:1051::/home/faradm:/sbin/nologin
+clamupdate:x:968:967:Clamav database update user:/var/lib/clamav:/sbin/nologin
+amavis:x:967:965:Amavis email content filter:/var/spool/amavisd:/sbin/nologin
+cbpolicyd:x:1053:1053:PolicyD User:/:/sbin/nologin
+parwaadm:x:1054:1054::/home/parwaadm:/sbin/nologin
+qaadadm:x:1055:1055::/home/qaadadm:/sbin/nologin
+mohiaadm:x:1056:1056::/home/mohiaadm:/sbin/nologin
+mopvpadm:x:1057:1057::/home/mopvpadm:/sbin/nologin
+moecadm:x:1058:1058::/home/moecadm:/sbin/nologin
+keuadm:x:1059:1059::/home/keuadm:/sbin/nologin
+szuadm:x:1060:1060::/home/szuadm:/sbin/nologin
+juadm:x:1061:1061::/home/juadm:/sbin/nologin
+zabuadm:x:1062:1062::/home/zabuadm:/sbin/nologin
+pktkuadm:x:1063:1063::/home/pktkuadm:/sbin/nologin
+pjadm:x:1064:1064::/home/pjadm:/sbin/nologin
+spuadm:x:1065:1065::/home/spuadm:/sbin/nologin
+wuadm:x:1066:1066::/home/wuadm:/sbin/nologin
+loadm:x:1067:1067::/home/loadm:/sbin/nologin
+urzuadm:x:1068:1068::/home/urzuadm:/sbin/nologin
+basuadm:x:1069:1069::/home/basuadm:/sbin/nologin
+ghadm:x:1070:1070::/home/ghadm:/sbin/nologin
+heluadm:x:1071:1071::/home/heluadm:/sbin/nologin
+smadm:x:1072:1072::/home/smadm:/sbin/nologin
+teugadm:x:1073:1073::/home/teugadm:/sbin/nologin
+nimuadm:x:1074:1074::/home/nimuadm:/sbin/nologin
+mopwadm:x:1075:1075::/home/mopwadm:/sbin/nologin
+nvaecadm:x:1076:1076::/home/nvaecadm:/sbin/nologin
+morradm:x:1077:1077::/home/morradm:/sbin/nologin
+mailadm:x:1078:1078::/home/mailadm:/sbin/nologin
+aiiodm:x:1079:1079::/home/aiiodm:/sbin/nologin
+moegadm:x:1080:1080::/home/moegadm:/sbin/nologin
+mewadm:x:1082:1082::/home/mewadm:/sbin/nologin
+mmdadm:x:1083:1083::/home/mmdadm:/sbin/nologin
+ahspadm:x:1084:1084::/home/ahspadm:/sbin/nologin
+kpuijweb:x:1085:1085::/home/kpuijweb:/sbin/nologin
+ruwatsip:x:1087:1087::/home/ruwatsip:/sbin/nologin
+gdpesg:x:1088:1088::/home/gdpesg:/sbin/nologin
+mrrdadm:x:1089:1089::/home/mrrdadm:/sbin/nologin
+sjauadm:x:1090:1090::/home/sjauadm:/sbin/nologin
+dheadm:x:1091:1091::/home/dheadm:/sbin/nologin
+luadm:x:1092:1092::/home/luadm:/sbin/nologin
+nuradm:x:1093:1093::/home/nuradm:/sbin/nologin
+baghadm:x:1094:1094::/home/baghadm:/sbin/nologin
+badadm:x:1095:1095::/home/badadm:/sbin/nologin
+abimjadm:x:1096:1096::/home/abimjadm:/sbin/nologin
+alhjadm:x:1097:1097::/home/alhjadm:/sbin/nologin
+iayjadm:x:1098:1098::/home/iayjadm:/sbin/nologin
+immjadm:x:1099:1099::/home/immjadm:/sbin/nologin
+iqisjadm:x:1100:1100::/home/iqisjadm:/sbin/nologin
+iabhjadm:x:1101:1101::/home/iabhjadm:/sbin/nologin
+tuadm:x:1102:1102::/home/tuadm:/sbin/nologin
+jamadm:x:1103:1103::/home/jamadm:/sbin/nologin
+jamiatad:x:1104:1104::/home/jamiatad:/sbin/nologin
+faraaadm:x:1106:1106::/home/faraaadm:/sbin/nologin
+mazadm:x:1107:1107::/home/mazadm:/sbin/nologin
+jalaadm:x:1108:1108::/home/jalaadm:/sbin/nologin
+charadm:x:1110:1110::/home/charadm:/sbin/nologin
+firouadm:x:1111:1111::/home/firouadm:/sbin/nologin
+farahadm:x:1112:1112::/home/farahadm:/sbin/nologin
+mehadm:x:1113:1113::/home/mehadm:/sbin/nologin
+heraadm:x:1114:1114::/home/heraadm:/sbin/nologin
+kndhradm:x:1115:1115::/home/kndhradm:/sbin/nologin
+kndzmadm:x:1116:1116::/home/kndzmadm:/sbin/nologin
+fepsonsd:x:1117:1117::/home/fepsonsd:/sbin/nologin
+hdsadm:x:1118:1118::/home/hdsadm:/sbin/nologin
+jinadm:x:1120:1120::/home/jinadm:/sbin/nologin
+auwsscns:x:1121:1121::/home/auwsscns:/sbin/nologin
+afapcadm:x:1123:1123::/home/afapcadm:/sbin/nologin
+nixaadm:x:1125:1125::/home/nixaadm:/sbin/nologin
+afgasnsd:x:1127:1127::/home/afgasnsd:/sbin/nologin
+qari:x:1128:1128::/home/qari:/sbin/nologin
+kdruadm:x:1129:1129::/home/kdruadm:/sbin/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+nginx:x:966:964:Nginx web server:/var/lib/nginx:/sbin/nologin
+andcadm:x:1130:1130::/home/andcadm:/sbin/nologin
+apraadm:x:1131:1131::/home/apraadm:/sbin/nologin
+mayadm:x:1132:1132::/home/mayadm:/sbin/nologin
+asqagov:x:1133:1133::/home/asqagov:/sbin/nologin
+cwpsrc:x:1134:1134::/home/cwpsrc:/bin/bash
+enccadm:x:1135:1135::/home/enccadm:/sbin/nologin
+nicadm:x:1138:1140::/home/nicadm:/sbin/nologin
+cadmincwp:x:1140:1142::/home/cadmincwp:/bin/bash
+mcitroot:x:1141:1143:mcitroot:/home/mcitroot:/bin/bash
+astraadm:x:1142:1144::/home/astraadm:/sbin/nologin
+----------------------------------------
