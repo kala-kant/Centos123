@@ -2,3 +2,9 @@
 COMMAND: whoami
 ERROR: __init__() got an unexpected keyword argument 'text'
 ----------------------------------------
+[2026-04-09 18:23:44]
+COMMAND: whoami
+EXIT CODE: 0
+STDOUT:
+moheadm
+----------------------------------------
