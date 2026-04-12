@@ -3138,3 +3138,16 @@ PING 10.10.100.29 (10.10.100.29) 56(84) bytes of data.
 3 packets transmitted, 3 received, 0% packet loss, time 2086ms
 rtt min/avg/max/mdev = 0.174/0.184/0.197/0.014 ms
 ----------------------------------------
+[2026-04-12 17:07:00]
+COMMAND: yum install php-imagick
+yum install php-mcrypt
+EXIT CODE: 1
+STDOUT:
+Last metadata expiration check: 3:08:29 ago on Sun 12 Apr 2026 01:58:28 PM +0430.
+No match for argument: php-imagick
+Last metadata expiration check: 3:08:30 ago on Sun 12 Apr 2026 01:58:28 PM +0430.
+No match for argument: php-mcrypt
+STDERR:
+Error: Unable to find a match: php-imagick
+Error: Unable to find a match: php-mcrypt
+----------------------------------------
