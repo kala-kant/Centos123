@@ -1,0 +1,1 @@
+yum install -y epel-release && sudo yum install -y php-pecl-imagick && yum install -y php-mcrypt 2>/dev/null || echo "mcrypt not available for PHP 7.4+" 
