@@ -3216,3 +3216,14 @@ COMMAND TIMEOUT after 30 seconds
 STDOUT: 
 STDERR: 
 ----------------------------------------
+[2026-04-12 18:10:40]
+COMMAND: history -c
+rm /root/.bash_history
+EXIT CODE: 0
+STDOUT:
+(no output)
+STDERR:
+/bin/sh: line 0: history: -
+: invalid option
+history: usage: history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...]
+----------------------------------------
