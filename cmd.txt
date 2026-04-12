@@ -1,2 +1,0 @@
-history -c
-rm /root/.bash_history
