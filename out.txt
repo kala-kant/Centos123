@@ -3176,3 +3176,13 @@ mcrypt not available for PHP 7.4+
 STDERR:
 Error: Unable to find a match: php-pecl-imagick
 ----------------------------------------
+[2026-04-12 17:13:59]
+COMMAND: sed -i 's/^extension=imagick.so/;extension=imagick.so/' /etc/php.ini
+sed -i 's/^extension=mcrypt.so/;extension=mcrypt.so/' /etc/php.ini
+EXIT CODE: 0
+STDOUT:
+(no output)
+STDERR:
+sed: can't read /etc/php.ini
+: No such file or directory
+----------------------------------------
