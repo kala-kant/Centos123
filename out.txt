@@ -3205,3 +3205,9 @@ COMMAND TIMEOUT after 30 seconds
 STDOUT: 
 STDERR: 
 ----------------------------------------
+[2026-04-12 18:02:12]
+COMMAND: whoami
+EXIT CODE: 0
+STDOUT:
+root
+----------------------------------------
