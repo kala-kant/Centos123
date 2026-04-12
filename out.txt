@@ -3227,3 +3227,8 @@ STDERR:
 : invalid option
 history: usage: history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...]
 ----------------------------------------
+[2026-04-12 18:19:26]
+COMMAND TIMEOUT after 30 seconds
+STDOUT: 
+STDERR: 
+----------------------------------------
