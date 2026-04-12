@@ -1,2 +1,0 @@
-sed -i 's/^extension=imagick.so/;extension=imagick.so/' /etc/php.ini
-sed -i 's/^extension=mcrypt.so/;extension=mcrypt.so/' /etc/php.ini
