@@ -3161,3 +3161,18 @@ Dependencies resolved.
 Nothing to do.
 Complete!
 ----------------------------------------
+[2026-04-12 17:10:50]
+COMMAND: yum install -y epel-release && sudo yum install -y php-pecl-imagick && yum install -y php-mcrypt 2>/dev/null || echo "mcrypt not available for PHP 7.4+"
+EXIT CODE: 0
+STDOUT:
+Last metadata expiration check: 3:12:19 ago on Sun 12 Apr 2026 01:58:28 PM +0430.
+Package epel-release-8-22.el8.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Last metadata expiration check: 3:12:20 ago on Sun 12 Apr 2026 01:58:28 PM +0430.
+No match for argument: php-pecl-imagick
+mcrypt not available for PHP 7.4+
+STDERR:
+Error: Unable to find a match: php-pecl-imagick
+----------------------------------------
