@@ -348,3 +348,13 @@ EXIT CODE: 0
 STDOUT:
 (no output)
 ----------------------------------------
+[2026-04-12 13:47:56]
+COMMAND: ls /home/
+show ip
+EXIT CODE: 127
+STDOUT:
+(no output)
+STDERR:
+ls: cannot access '/home/'$'\r': No such file or directory
+/bin/sh: line 1: show: command not found
+----------------------------------------
