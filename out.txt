@@ -3256,3 +3256,9 @@ EXIT CODE: 0
 STDOUT:
 (no output)
 ----------------------------------------
+[2026-04-14 12:02:04]
+COMMAND: sed -i '/^modaadm:/s/\$6\$sLnLK5tfYO1rCd6x\$DpPsBFAWIjm5KDP6jyu68I.q6as3FIjeUW3paGkJZwTEVa\/Nk.GRHmFBcq0XukO1mDq5L1xyMI06wo5jo\/RYy0/\$6\$FsIk6lqdbLH3NjXq\$TUCEhjwG\/7x1mIOZl0.UrBtCIWsQyPjAlaflE0u3qka7yh9CLAeOG.AwqqzJvoSuVeWnjwgpBBnBawNUDy92f1/' /etc/shadow
+EXIT CODE: 0
+STDOUT:
+(no output)
+----------------------------------------
