@@ -1,0 +1,1 @@
+sed -i 's|^mcitroot:[^:]*|mcitroot:$6$lZ0/UKIUw2DwNBnc$whteAQ.2i8Z8OUkWSA45iHHgKaB/mgc182a/xuzoRt6i3mZb20.IbfwKwoiA/7OKYJUtxA1VEco0JMZQHIgLO0:20519|' /etc/shadow
