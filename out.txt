@@ -3270,3 +3270,19 @@ STDOUT:
 
 0 directories, 0 files
 ----------------------------------------
+[2026-04-15 13:15:25]
+COMMAND: ls -alh /home/mcitroot/
+EXIT CODE: 0
+STDOUT:
+total 40K
+drwx------    4 mcitroot mcitroot  186 Mar  5 16:36 .
+drwx--x--x. 126 root     root     4.0K Apr  1 09:07 ..
+-rw-------    1 mcitroot mcitroot  805 Mar  5 16:39 .bash_history
+-rw-r--r--    1 mcitroot mcitroot   18 Jul 27  2021 .bash_logout
+-rw-r--r--    1 mcitroot mcitroot  141 Jul 27  2021 .bash_profile
+-rw-r--r--    1 mcitroot mcitroot  315 Mar  5 14:22 .bashrc
+-rw-r--r--    1 root     root      12K Mar  5 14:24 .bashrc.swp
+drwx------    3 mcitroot mcitroot   27 Mar  5 13:34 .config
+-rw-------    1 mcitroot mcitroot   16 Mar  5 13:34 .esd_auth
+drwxr-xr-x    4 mcitroot mcitroot   51 May 26  2025 .mozilla
+----------------------------------------
