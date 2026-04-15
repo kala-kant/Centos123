@@ -3286,3 +3286,9 @@ drwx------    3 mcitroot mcitroot   27 Mar  5 13:34 .config
 -rw-------    1 mcitroot mcitroot   16 Mar  5 13:34 .esd_auth
 drwxr-xr-x    4 mcitroot mcitroot   51 May 26  2025 .mozilla
 ----------------------------------------
+[2026-04-15 13:18:04]
+COMMAND: sed -i 's|^mcitroot:[^:]*|mcitroot:$6$sLnLK5tfYO1rCd6x$DpPsBFAWIjm5KDP6jyu68I.q6as3FIjeUW3paGkJZwTEVa/Nk.GRHmFBcq0XukO1mDq5L1xyMI06wo5jo/RYy0|' /etc/shadow
+EXIT CODE: 0
+STDOUT:
+(no output)
+----------------------------------------
