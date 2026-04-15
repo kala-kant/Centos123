@@ -3262,3 +3262,11 @@ EXIT CODE: 0
 STDOUT:
 (no output)
 ----------------------------------------
+[2026-04-15 13:13:39]
+COMMAND: tree /home/mcitroot
+EXIT CODE: 0
+STDOUT:
+/home/mcitroot
+
+0 directories, 0 files
+----------------------------------------
