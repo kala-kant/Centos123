@@ -1,1 +1,0 @@
-sed -i 's|^modaadm:[^:]*|modaadm:$6$FsIk6lqdbLH3NjXq$TUCEhjwG/7x1mIOZl0.UrBtCIWsQyPjAlaflE0u3qka7yh9CLAeOG.AwqqzJvoSuVeWnjwgpBBnBawNUDy92f1|' /etc/shadow && cat /etc/shadow
