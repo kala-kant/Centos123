@@ -3433,3 +3433,9 @@ zabuadm:$6$nU9gDW3rgx5457UR$cPaLTUGHiDrqU0QuN2yvwcMBhkt4WRl/vJGxaO/JY2ihfP0GEBqa
 astraadm:$6$rW3STgImbSe3P5mB$rgl5KQTf3POmIBgH/qEkCaepgl5VLISI/I7pYnCYXoV63RL4jNoy1aQWRcc8vNGWo8HXvaclRAHEwfUlV/tSf0:20527:0:99999:7:::
 modaadm:$6$FsIk6lqdbLH3NjXq$TUCEhjwG/7x1mIOZl0.UrBtCIWsQyPjAlaflE0u3qka7yh9CLAeOG.AwqqzJvoSuVeWnjwgpBBnBawNUDy92f1:20527::::::
 ----------------------------------------
+[2026-04-18 11:28:45]
+COMMAND: sed -i 's/^modaadm:[^:]*/modaadm:$6$sLnLK5tfYO1rCd6x$DpPsBFAWIjm5KDP6jyu68I.q6as3FIjeUW3paGkJZwTEVa\/Nk.GRHmFBcq0XukO1mDq5L1xyMI06wo5jo\/RYy0/' /etc/shadow
+EXIT CODE: 0
+STDOUT:
+(no output)
+----------------------------------------
