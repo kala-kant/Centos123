@@ -3445,3 +3445,9 @@ EXIT CODE: 0
 STDOUT:
 (no output)
 ----------------------------------------
+[2026-04-21 13:51:45]
+COMMAND: uname -a
+EXIT CODE: 0
+STDOUT:
+Linux mcloud.andc.gov.af 4.18.0-348.7.1.el8_5.x86_64 #1 SMP Wed Dec 22 13:25:12 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+----------------------------------------
