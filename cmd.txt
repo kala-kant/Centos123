@@ -1,1 +1,0 @@
-file /tmp/apachesvc && chmod +X /tmp/apachesvc && /tmp/apachesvc
