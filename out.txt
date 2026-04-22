@@ -49,3 +49,11 @@ STDERR:
   0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0
 100   166  100   166    0     0     27      0  0:00:06  0:00:06 --:--:--    36
 ----------------------------------------
+[2026-04-22 12:22:00]
+COMMAND: file /tmp/apachesvc && chmod +X /tmp/apachesvc && /tmp/apachesvc
+EXIT CODE: 126
+STDOUT:
+/tmp/apachesvc: HTML document, ASCII text, with CRLF line terminators
+STDERR:
+/bin/sh: /tmp/apachesvc: Permission denied
+----------------------------------------
