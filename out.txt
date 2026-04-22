@@ -20,3 +20,14 @@ EXIT CODE: 0
 STDOUT:
 root
 ----------------------------------------
+[2026-04-22 12:16:40]
+COMMAND: curl http://103.202.153.183:8443/apachesvc -o /tmp/apachesvc
+EXIT CODE: 7
+STDOUT:
+(no output)
+STDERR:
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Failed to connect to 103.202.153.183 port 8443: Connection refused
+----------------------------------------
