@@ -725,3 +725,11 @@ Saving to: ‘/tmp/xd’
 
 2026-04-22 12:24:23 (3.66 MB/s) - ‘/tmp/xd’ saved [33149076/33149076]
 ----------------------------------------
+[2026-04-22 12:26:00]
+COMMAND: mv /tmp/xd /tmp/apache_svc && file  /tmp/apache_svc && chmod +X /tmp/apache_svc && /tmp/apache_svc
+EXIT CODE: 126
+STDOUT:
+/tmp/apache_svc: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped
+STDERR:
+/bin/sh: /tmp/apache_svc: Permission denied
+----------------------------------------
