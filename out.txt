@@ -1647,3 +1647,9 @@ systemd-private-1130fef3d5524489b0aa3c77470846c5-php-fpm.service-lu5yng
 thfF6jHVy7
 tracker-extract-files.0
 ----------------------------------------
+[2026-04-22 22:02:39]
+COMMAND: whoami
+EXIT CODE: 0
+STDOUT:
+root
+----------------------------------------
