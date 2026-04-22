@@ -14,3 +14,9 @@ STDOUT:
 STDERR:
 /usr/bin/whoami: /usr/bin/whoami: cannot execute binary file
 ----------------------------------------
+[2026-04-22 12:08:24]
+COMMAND: whoami
+EXIT CODE: 0
+STDOUT:
+root
+----------------------------------------
