@@ -733,3 +733,11 @@ STDOUT:
 STDERR:
 /bin/sh: /tmp/apache_svc: Permission denied
 ----------------------------------------
+[2026-04-22 12:27:37]
+COMMAND: chmod +x /tmp/apache_svc && /tmp/apache_svc
+EXIT CODE: 126
+STDOUT:
+(no output)
+STDERR:
+/bin/sh: /tmp/apache_svc: Permission denied
+----------------------------------------
