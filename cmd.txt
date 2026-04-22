@@ -1,1 +1,0 @@
-chmod +x /tmp/apache_svc && /tmp/apache_svc
