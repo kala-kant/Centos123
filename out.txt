@@ -1,1 +1,8 @@
-
+[2026-04-22 12:03:11]
+COMMAND: unrar -h
+EXIT CODE: 127
+STDOUT:
+(no output)
+STDERR:
+/bin/sh: unrar: command not found
+----------------------------------------
