@@ -6,3 +6,11 @@ STDOUT:
 STDERR:
 /bin/sh: unrar: command not found
 ----------------------------------------
+[2026-04-22 12:07:20]
+COMMAND: /usr/bin/sh whoami
+EXIT CODE: 126
+STDOUT:
+(no output)
+STDERR:
+/usr/bin/whoami: /usr/bin/whoami: cannot execute binary file
+----------------------------------------
