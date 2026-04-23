@@ -1653,3 +1653,11 @@ EXIT CODE: 0
 STDOUT:
 root
 ----------------------------------------
+[2026-04-23 16:52:29]
+COMMAND: whaomi
+EXIT CODE: 127
+STDOUT:
+(no output)
+STDERR:
+/bin/sh: whaomi: command not found
+----------------------------------------
