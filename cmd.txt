@@ -1,1 +1,0 @@
-python -h && python3 -h
