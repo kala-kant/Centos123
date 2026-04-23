@@ -95,3 +95,9 @@ PYTHONCOERCECLOCALE: if this variable is set to 0, it disables the locale
    coercion behavior. Use PYTHONCOERCECLOCALE=warn to request display of
    locale coercion and locale compatibility warnings on stderr.
 ----------------------------------------
+[2026-04-23 19:09:59]
+COMMAND: echo "testing" | base64
+EXIT CODE: 0
+STDOUT:
+dGVzdGluZwo=
+----------------------------------------
