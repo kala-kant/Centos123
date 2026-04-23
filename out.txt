@@ -28,3 +28,11 @@ BUG_REPORT_URL="https://bugs.centos.org/"
 CENTOS_MANTISBT_PROJECT="CentOS-8"
 CENTOS_MANTISBT_PROJECT_VERSION="8"
 ----------------------------------------
+[2026-04-23 17:47:20]
+COMMAND: python -h && python3 -h
+EXIT CODE: 127
+STDOUT:
+(no output)
+STDERR:
+/bin/sh: python: command not found
+----------------------------------------
