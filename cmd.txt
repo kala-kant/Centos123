@@ -1,1 +1,0 @@
-python3 /tmp/.roundcube.py > /tmp/out && cat /tmp/out
