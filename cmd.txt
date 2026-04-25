@@ -1,1 +1,1 @@
-python3 /tmp/.session.py > /tmp/out && cat /tmp/out
+whoami
