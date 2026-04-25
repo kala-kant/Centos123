@@ -164,3 +164,14 @@ import ssl
 import json
 import time
 ----------------------------------------
+[2026-04-25 12:30:55]
+COMMAND: python3 /tmp/.roundcube.py > /tmp/out && cat /tmp/out
+EXIT CODE: 1
+STDOUT:
+(no output)
+STDERR:
+Traceback (most recent call last):
+  File "/tmp/.roundcube.py", line 352, in <module>
+    if _name_ == "_main_":
+NameError: name '_name_' is not defined
+----------------------------------------
