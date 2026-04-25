@@ -149,3 +149,18 @@ EXIT CODE: 0
 STDOUT:
 (no output)
 ----------------------------------------
+[2026-04-25 12:29:19]
+COMMAND: head /tmp/.roundcube.py
+EXIT CODE: 0
+STDOUT:
+#!/usr/bin/env python3
+"""
+Roundcube Session Handler
+"""
+
+import os
+import sys
+import ssl
+import json
+import time
+----------------------------------------
