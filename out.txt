@@ -9,3 +9,10 @@ STDERR:
 'uname' is not recognized as an internal or external command,
 operable program or batch file.
 ----------------------------------------
+
+[2026-04-26 11:35:17]
+COMMAND: whoami
+EXIT CODE: 0
+STDOUT:
+moheadm
+----------------------------------------
