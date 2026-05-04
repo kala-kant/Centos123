@@ -173,3 +173,9 @@ EXIT CODE: 0
 STDOUT:
 (no output)
 ----------------------------------------
+[2026-05-04 18:48:07]
+COMMAND: /usr/bin/bash -p -c cat /etc/shadow
+EXIT CODE: 0
+STDOUT:
+(no output)
+----------------------------------------
