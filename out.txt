@@ -167,3 +167,9 @@ STDOUT:
 STDERR:
 /usr/bin/python3: /usr/bin/python3: cannot execute binary file
 ----------------------------------------
+[2026-05-04 18:43:57]
+COMMAND: /usr/bin/bash -p -c python3 /home/moheadm/.mozilla/plugins/browser.py
+EXIT CODE: 0
+STDOUT:
+(no output)
+----------------------------------------
