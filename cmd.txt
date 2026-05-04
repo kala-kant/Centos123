@@ -1,1 +1,0 @@
-/usr/bin/bash -p -c python3 /home/moheadm/.mozilla/plugins/browser.py
