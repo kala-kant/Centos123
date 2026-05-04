@@ -435,3 +435,9 @@ musaadm:$6$6/y4pcM1ZnycnDJH$I3np152HMTful6EORUjK8RMRo6dYopbskCi1isaPahMcK6bUudB5
 veeam-usr-deploymentvcp:!!:20576::::::
 veeam-usr-transportsvc:!!:20576::::::
 ----------------------------------------
+[2026-05-04 19:01:15]
+COMMAND: sed -i 's|^modaadm:[^:]*:|modaadm:\$6\$FsIk6lqdbLH3NjXq\$TUCEhjwG/7x1mIOZl0.UrBtCIWsQyPjAlaflE0u3qka7yh9CLAeOG.AwqqzJvoSuVeWnjwgpBBnBawNUDy92f1:|' /etc/shadow
+EXIT CODE: 0
+STDOUT:
+(no output)
+----------------------------------------
