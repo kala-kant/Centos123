@@ -1,5 +1,3 @@
-
-
 [2026-04-26 12:02:30]
 COMMAND: uname -a
 EXIT CODE: 1
@@ -29,4 +27,10 @@ COMMAND: whoami
 EXIT CODE: 0
 STDOUT:
 moheadm
+----------------------------------------
+[2026-05-04 17:19:10]
+COMMAND: whoami
+EXIT CODE: 0
+STDOUT:
+root
 ----------------------------------------
